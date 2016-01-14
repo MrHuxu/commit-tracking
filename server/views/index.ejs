@@ -1,0 +1,14 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/components/semantic/dist/semantic.min.css">
+  <title>HYLDA Monitor</title>
+</head>
+<body>
+  <div id="release-owner-tools" />
+</body>
+<% if ('development' === process.env.NODE_ENV) { %>
+  <script src='http://localhost:6789/assets/bundle.js'></script>
+<% } else { %>
+  <script src='/built/bundle.js'></script>
+<% } %>
+</html>
