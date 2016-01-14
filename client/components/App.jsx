@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import List from './List.jsx';
 import CommitFilter from './CommitFilter.jsx';
+import CommitList from './CommitList.jsx';
+import TicketList from './TicketList.jsx';
 
 class App extends Component {
   render () {

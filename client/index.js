@@ -1,4 +1,5 @@
 import '../node_modules/animate.css/animate.min.css';
+import '../node_modules/react-datetime/css/react-datetime.css';
 
 import $ from 'jquery';
 window.jQuery = $; // Assure it's available globally.
