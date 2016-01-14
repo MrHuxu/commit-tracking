@@ -6,13 +6,24 @@ import TicketList from './TicketList.jsx';
 class App extends Component {
   render () {
     return (
-      <div className='ui grid' style={{marginTop: '10px'}}>
-        <div className='sixteen wide column center aligned'>
+      <div className='ui grid' style={{marginTop: '0'}}>
+        <div className='sixteen wide column center aligned' style={{paddingBottom: '0'}}>
           <h1 style={{fontSize: '40px', color: '#666'}}>Release Owner Tools</h1>
         </div>
         <div className='three wide column' />
         <div className='ten wide column'>
           <CommitFilter />
+        </div>
+
+        <div className='three wide column' />
+        <div className='three wide column' />
+
+        <div className='four wide column'>
+          <TicketList />
+        </div>
+
+        <div className='six wide column'>
+          <CommitList />
         </div>
       </div>
     );

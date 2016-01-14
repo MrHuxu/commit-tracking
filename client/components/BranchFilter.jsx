@@ -23,10 +23,12 @@ class BranchFilter extends Component {
                 <option value="BVI">BVI</option>
               </select>
             </div>
+
             <div className='field'>
               <label>Start Time</label>
               <DateTime className='ui input'/>
             </div>
+
             <div className='field'>
               <label>End Time</label>
               <DateTime className='ui input'/>
