@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className='ui grid' style={{marginTop: '0'}}>
         <div className='sixteen wide column center aligned' style={{paddingBottom: '0'}}>
-          <h1 style={{fontSize: '40px', color: '#666'}}>Release Owner Tools</h1>
+          <h1 style={{fontSize: '40px', color: '#666'}}>Commit Tracking</h1>
         </div>
         <div className='three wide column' />
         <div className='ten wide column'>
